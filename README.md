@@ -5,31 +5,113 @@
   A calculadora tem como objetivo realizar funções basicas
 soma, subtração, divisão e multiplicação
 
-## Funções
+## Documentação
   
-  Com o objetivo de estudar teste software a calculadora foi testada, 
-de forma a ser feita contas basicas e documentar o corpotamentamento 
-dos resultados das mesmas.
+  Foi documentada as classes de soma, subtração, divisão e multiplicação e os metodos
 
-##  Como usar?
+##  interface
+
+    
+  # Divisão
+        
+    package ExercicioCalculadora;
+    /**
+     * @author GabrielSichoski
+     * @version 2.0
+     * @since versão 1.0 da aplicação
+     * 
+     * Classe usada para realizar a divisao
+     */
+    public class Dividir {
+    	/**
+    	 * Regra de negocio divisao
+    	 * 
+    	 * @param A numero a ser dividido
+    	 * @param B numero divisor
+    	 * @return {@code int} resultado da divisao de A por B
+    	 */
+        public int divisao (int A, int B){
+            return A /B ;
+        }
+    }
+
+![image](https://github.com/GabrielSichoski/JavaDocCalculadora/assets/104863390/7a7fc504-5cd9-4282-b787-62c706d1d07a)
+
+  # Multiplicação
+
+         
+    package ExercicioCalculadora;
+    /**
+     * @author GabrielSichoski
+     * @version 2.0
+     * @since versão 1.0 da aplicação
+     * 
+     * Classe usada para multiplicar
+     */
+    public class Multiplicar {
+    	/**
+    	 * Regra de negocio multiplicacao
+    	 * 
+    	 * @param A Numero multiplicado
+    	 * @param B Numero Multiplicador
+    	 * @return {@code int} resultado da multiplicacao de A e B
+    	 */
+      public int multiplicacao (int A, int B){
+          return A*B;
+      }  
+    }
+![image](https://github.com/GabrielSichoski/JavaDocCalculadora/assets/104863390/2a29c25e-8901-4b80-a787-e031a4c00413)
+
+  # Soma
+
   
-  O usuario deve, colocar os valores que deseja em java, o teste vai
-retornar de acordo com o teste feito.
+    package ExercicioCalculadora;
+    /**
+     * @author GabrielSichoski
+     * @version 2.0
+     * @since versão 1.0 da aplicação
+     * 
+     * Classe utilizada para somar
+     */
+    public class Soma {
+    	/**
+    	 * Regra de negocio soma
+    	 * 
+    	 * @param A numero base a ser somado
+    	 * @param B numero somador
+    	 * @return {@code int} Resultado da soma de A e B
+    	 */
+        public int somar (int A, int B){
+            return A + B;
+        }
+    }
+  ![image](https://github.com/GabrielSichoski/JavaDocCalculadora/assets/104863390/086925ff-ac0f-4721-a8ab-916c1f325726)
 
-## Soma e Subtração
+  # Subtração
+    
+    package ExercicioCalculadora;
+    /**
+     * @author GabrielSichoski
+     * @version 2.0
+     * @since versão 1.0 da aplicação
+     * 
+     * Classe utilizada para subtracao
+     */
+    public class Subtracao {
+    	/**
+    	 * Regra de negocio de subtracao
+    	 * 
+    	 * @param A numero a ser subtraido
+    	 * @param B numero que subtrai
+    	 * @return {@code int} Resultado da subtracao de A e B
+    	 */
+        public int subtrair (int A, int B){
+            return A - B;
+        }
+    }
+![image](https://github.com/GabrielSichoski/JavaDocCalculadora/assets/104863390/0b967009-af2a-485d-a75a-97b734255031)
 
-![image](https://github.com/GabrielSichoski/Calculadora/assets/104863390/5667232a-2aef-4234-8e99-f3b6c5f35aa2)
 
 
-## Divisão e Multiplicação
-
-![image](https://github.com/GabrielSichoski/Calculadora/assets/104863390/9b4e74ac-65ba-4d6b-b5a4-a6509485770e)
 
 
-## Conclusão
-  A calculadora funcionou de forma correta  o unico erro notado foi na divisão por 0
-
-Resultado das operações feitas
-
-![image (2)](https://github.com/GabrielSichoski/Calcudora/assets/104863390/e291c02e-aed7-487d-a44a-507162abb479)
-"# JavaDocCalculadora" 
